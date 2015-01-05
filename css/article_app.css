@@ -139,3 +139,7 @@ li {
   word-wrap: break-word;
 }
 
+#app {
+  padding: 10px;
+}
+
