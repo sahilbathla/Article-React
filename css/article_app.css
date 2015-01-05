@@ -1,0 +1,141 @@
+* {
+  margin: 2px;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  border: 10px solid;
+  background-color: #FAFAFA;
+}
+
+header {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+.post-article {
+  border: 1px dashed #EDEDED;
+  width: 500px;
+  text-align: center;
+  padding: 5px;
+  float: right;
+  position: fixed;
+  right: 50px;
+  top: 93px;
+}
+
+.submit {  
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #7CB81D;
+  color: #fff;
+  display: block;
+  margin-left: 200px; 
+}
+
+.textfield {
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.textarea {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+label {
+  display: inline-block;
+}
+
+.comment{
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #E55920;
+  color: #fff;
+  vertical-align: top;
+}
+
+.cmmnt {
+  position: relative;
+  float: left;
+  width: 300px;
+  padding: 0px 20px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 5px rgba(0,0,0,.2);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 50px;
+}
+
+span {
+  font-size: 14px;
+}
+
+.articles li {
+  padding-top: 10px;
+}
+
+.comment-ti {
+  text-align: center;
+}
+
+.comment-ti input {
+  margin-left: 60px;
+}
+
+.c-input {
+  border-radius: 5px;
+  vertical-align: top;
+  display: block;
+}
+
+.c-text {
+  border-radius: 5px;
+  width: 300px;
+  height: 40px;
+}
+
+.comment-box {
+  background-color:#f0f0ee;
+  font: 0.8em "Trebuchet MS";
+  width: 500px;
+  height: 150px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border-radius: 15px;
+}
+
+.cmmnt p:first-child {
+  float: right;
+}
+
+.commenter {
+  float: left;
+}
+
+li {
+  list-style-type: none;
+}
+
+.comment-list li {
+  display: inline-block;
+}
+
+.article-box {
+  width: 730px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid;
+  border-radius: 10px;
+  height: 500px;
+  word-wrap: break-word;
+}
+
